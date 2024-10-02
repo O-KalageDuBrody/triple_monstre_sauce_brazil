@@ -1,0 +1,205 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Police moderne et lisible */
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fond sombre */
+    color: #ffffff; /* Texte blanc */
+}
+
+a {
+    color: #1e90ff; /* Couleur des liens */
+    text-decoration: none; /* Suppression du soulignement */
+}
+
+.container {
+    max-width: 1200px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centrer le conteneur */
+    padding: 0 20px; /* Espacement latéral */
+}
+
+/* En-tête */
+header {
+    background-color: #1c1c1c; /* Fond du header */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Espacement entre logo et menu */
+    align-items: center; /* Centrer verticalement */
+}
+
+.logo {
+    font-size: 1.5em; /* Taille de la police du logo */
+    font-weight: bold; /* Mettre en gras */
+}
+
+nav ul {
+    list-style: none; /* Suppression des puces */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Affichage en ligne */
+    margin: 0 15px; /* Espacement entre les éléments */
+}
+
+.cta-buttons .btn {
+    background-color: #1e90ff; /* Couleur des boutons */
+    color: #ffffff; /* Texte blanc */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition pour l’effet au survol */
+}
+
+.cta-buttons .btn:hover {
+    background-color: #00aaff; /* Couleur au survol */
+}
+
+/* Hero Banner */
+#hero {
+    background: url('images/hero-background.jpg') no-repeat center center; /* Image de fond */
+    background-size: cover; /* Couvrir toute la section */
+    height: 400px; /* Hauteur du banner */
+    display: flex; /* Flexbox pour centrer le contenu */
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    text-align: center; /* Centrer le texte */
+}
+
+.hero-content h2 {
+    font-size: 2.5em; /* Taille du titre */
+    margin-bottom: 10px; /* Espacement sous le titre */
+}
+
+.hero-content p {
+    font-size: 1.2em; /* Taille du sous-titre */
+    margin-bottom: 20px; /* Espacement sous le sous-titre */
+}
+
+/* Section Services */
+#services {
+    padding: 40px 0; /* Espacement vertical */
+    background-color: #222; /* Fond de la section */
+    text-align: center; /* Centrer le texte */
+}
+
+.services-list {
+    display: flex; /* Flexbox pour disposition en ligne */
+    justify-content: space-around; /* Espacement uniforme */
+    flex-wrap: wrap; /* Gérer le passage à la ligne sur petit écran */
+}
+
+.service {
+    background-color: #333; /* Fond des cartes de service */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    margin: 10px; /* Espacement entre les cartes */
+    flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 300px; /* Largeur maximale */
+    transition: transform 0.3s; /* Transition pour effet de survol */
+}
+
+.service:hover {
+    transform: scale(1.05); /* Agrandir légèrement au survol */
+}
+
+.service img {
+    max-width: 100%; /* Image responsive */
+    border-radius: 5px; /* Coins arrondis pour les images */
+}
+
+.service h4 {
+    margin: 15px 0 10px; /* Espacement pour le titre */
+}
+
+/* Section Coachs */
+#coaches {
+    padding: 40px 0; /* Espacement vertical */
+    background-color: #222; /* Fond de la section */
+}
+
+.coaches-list {
+    display: flex; /* Flexbox pour disposition en ligne */
+    justify-content: space-around; /* Espacement uniforme */
+    flex-wrap: wrap; /* Gérer le passage à la ligne sur petit écran */
+}
+
+.coach {
+    background-color: #333; /* Fond des cartes de coach */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    margin: 10px; /* Espacement entre les cartes */
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 250px; /* Largeur maximale */
+    transition: transform 0.3s; /* Transition pour effet de survol */
+}
+
+.coach:hover {
+    transform: scale(1.05); /* Agrandir légèrement au survol */
+}
+
+.coach img {
+    max-width: 100%; /* Image responsive */
+    border-radius: 50%; /* Arrondir les images en cercle */
+}
+
+/* Section Tarification */
+#pricing {
+    padding: 40px 0; /* Espacement vertical */
+    background-color: #1c1c1c; /* Fond de la section */
+    text-align: center; /* Centrer le texte */
+}
+
+.pricing-table {
+    display: flex; /* Flexbox pour disposition en ligne */
+    justify-content: space-around; /* Espacement uniforme */
+    flex-wrap: wrap; /* Gérer le passage à la ligne sur petit écran */
+}
+
+.plan {
+    background-color: #333; /* Fond des plans tarifaires */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    margin: 10px; /* Espacement entre les cartes */
+    flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 300px; /* Largeur maximale */
+}
+
+.plan h4 {
+    margin-bottom: 10px; /* Espacement sous le titre */
+}
+
+/* Section Témoignages */
+#testimonials {
+    padding: 40px 0; /* Espacement vertical */
+    background-color: #222; /* Fond de la section */
+    text-align: center; /* Centrer le texte */
+}
+
+.testimonial {
+    background-color: #333; /* Fond des témoignages */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    margin: 10px; /* Espacement entre les cartes */
+}
+
+/* Section FAQ */
+#faq {
+    padding: 40px 0; /* Espacement vertical */
+    background-color: #1c1c1c; /* Fond de la section */
+}
+
+.faq-question {
+    cursor: pointer; /* Curseur de pointeur pour les questions */
+}
+
+/* Pied de page */
+footer {
+    background-color: #1c1c1c; /* Fond du pied de page */
+    padding: 20px 0; /* Espacement vertical */
+    text-align: center; /* Centrer le texte */
+}
+
+footer a {
+    color: #1e90ff; /* Couleur des liens */
+    margin: 0 10px; /* Espacement entre les liens */
+}
