@@ -1,0 +1,20 @@
+        <div class="coach-list">
+            <div class="coach">
+                <img src="images/coach1.jpg" alt="Coach 1">
+                <h4>zydar</h4>
+                <p>Toplaner - Rang : Challenger</p>
+                <a href="#coach1" class="btn">Voir Profil</a>
+            </div>
+            <div class="coach">
+                <img src="images/coach2.jpg" alt="Coach 2">
+                <h4>SniperLoL</h4>
+                <p>Jungler - Rang : Iron(top 100 mondial mariokart 8)</p>
+                <a href="#coach2" class="btn">Voir Profil</a>
+            </div>
+            <div class="coach">
+                <img src="images/coach3.jpg" alt="Coach 3">
+                <h4>GambasMan</h4>
+                <p>Midlaner - Rang : Grandmaster</p>
+                <a href="#coach3" class="btn">Voir Profil</a>
+            </div>
+        </div>

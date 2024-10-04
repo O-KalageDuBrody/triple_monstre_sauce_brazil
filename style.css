@@ -1,68 +1,71 @@
-/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif; /* Police moderne et lisible */
+    font-family: 'Arial', sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Fond sombre */
-    color: #ffffff; /* Texte blanc */
+    background-color: #121212; 
+    color: #ffffff; 
 }
 
 a {
-    color: #1e90ff; /* Couleur des liens */
-    text-decoration: none; /* Suppression du soulignement */
+    color: #1e90ff; 
+    text-decoration: none; 
 }
 
 .container {
-    max-width: 1200px; /* Largeur maximale du conteneur */
-    margin: 0 auto; /* Centrer le conteneur */
-    padding: 0 20px; /* Espacement latéral */
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
 }
 
-/* En-tête */
+.pp_logo {
+    width: 50px;
+    height: 50px;
+}
+
+
 header {
-    background-color: #1c1c1c; /* Fond du header */
+    background-color: #1c1c1c; 
     padding: 20px 0;
     display: flex;
-    justify-content: space-between; /* Espacement entre logo et menu */
-    align-items: center; /* Centrer verticalement */
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .logo {
-    font-size: 1.5em; /* Taille de la police du logo */
-    font-weight: bold; /* Mettre en gras */
+    font-size: 50px; 
+    font-weight: bold; 
 }
 
 nav ul {
-    list-style: none; /* Suppression des puces */
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline; /* Affichage en ligne */
-    margin: 0 15px; /* Espacement entre les éléments */
+    display: inline; 
+    margin: 0 15px;
 }
 
 .cta-buttons .btn {
-    background-color: #1e90ff; /* Couleur des boutons */
-    color: #ffffff; /* Texte blanc */
-    padding: 10px 20px; /* Espacement interne */
-    border-radius: 5px; /* Coins arrondis */
-    transition: background-color 0.3s; /* Transition pour l’effet au survol */
+    background-color: #1e90ff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .cta-buttons .btn:hover {
-    background-color: #00aaff; /* Couleur au survol */
+    background-color: #00aaff;
 }
 
-/* Hero Banner */
 #hero {
-    background: url('images/hero-background.jpg') no-repeat center center; /* Image de fond */
-    background-size: cover; /* Couvrir toute la section */
-    height: 400px; /* Hauteur du banner */
-    display: flex; /* Flexbox pour centrer le contenu */
-    align-items: center; /* Centrer verticalement */
-    justify-content: center; /* Centrer horizontalement */
-    text-align: center; /* Centrer le texte */
+    background: url('images/hero-background.jpg') no-repeat center center; 
+    background-size: cover; 
+    height: 400px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
 }
 
 .hero-content h2 {
@@ -75,7 +78,6 @@ nav ul li {
     margin-bottom: 20px; /* Espacement sous le sous-titre */
 }
 
-/* Section Services */
 #services {
     padding: 40px 0; /* Espacement vertical */
     background-color: #222; /* Fond de la section */
@@ -111,7 +113,6 @@ nav ul li {
     margin: 15px 0 10px; /* Espacement pour le titre */
 }
 
-/* Section Coachs */
 #coaches {
     padding: 40px 0; /* Espacement vertical */
     background-color: #222; /* Fond de la section */
@@ -142,7 +143,6 @@ nav ul li {
     border-radius: 50%; /* Arrondir les images en cercle */
 }
 
-/* Section Tarification */
 #pricing {
     padding: 40px 0; /* Espacement vertical */
     background-color: #1c1c1c; /* Fond de la section */
@@ -160,46 +160,44 @@ nav ul li {
     border-radius: 8px; /* Coins arrondis */
     padding: 20px; /* Espacement interne */
     margin: 10px; /* Espacement entre les cartes */
-    flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
-    max-width: 300px; /* Largeur maximale */
+    flex: 1 1 250px; 
+    max-width: 300px;
 }
 
 .plan h4 {
-    margin-bottom: 10px; /* Espacement sous le titre */
+    margin-bottom: 10px; 
 }
 
-/* Section Témoignages */
 #testimonials {
-    padding: 40px 0; /* Espacement vertical */
-    background-color: #222; /* Fond de la section */
-    text-align: center; /* Centrer le texte */
+    padding: 40px 0; 
+    background-color: #222; 
+    text-align: center;
 }
 
 .testimonial {
-    background-color: #333; /* Fond des témoignages */
-    border-radius: 8px; /* Coins arrondis */
-    padding: 20px; /* Espacement interne */
-    margin: 10px; /* Espacement entre les cartes */
+    background-color: #333; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 10px; 
 }
 
-/* Section FAQ */
 #faq {
-    padding: 40px 0; /* Espacement vertical */
-    background-color: #1c1c1c; /* Fond de la section */
+    padding: 40px 0; 
+    background-color: #1c1c1c; 
 }
 
 .faq-question {
-    cursor: pointer; /* Curseur de pointeur pour les questions */
+    cursor: pointer; 
 }
 
-/* Pied de page */
+
 footer {
-    background-color: #1c1c1c; /* Fond du pied de page */
-    padding: 20px 0; /* Espacement vertical */
-    text-align: center; /* Centrer le texte */
+    background-color: #1c1c1c; 
+    padding: 20px 0; 
+    text-align: center; 
 }
 
 footer a {
-    color: #1e90ff; /* Couleur des liens */
-    margin: 0 10px; /* Espacement entre les liens */
+    color: #1e90ff; 
+    margin: 0 10px; 
 }
