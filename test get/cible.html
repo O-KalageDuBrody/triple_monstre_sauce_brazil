@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    Données envoyées
+    <h1 id="result"></h1>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const fname = urlParams.get('fname');
+        const lname = urlParams.get('lname');
+
+        document.getElementById("result").innerHTML = `Bonjour, ${fname} ${lname}!`;
+    </Script>
+</body>
+</html>
