@@ -5,7 +5,9 @@ body {
     background-color: #121212; 
     color: #ffffff; 
 }
-
+li{
+    transition: 0.5s;
+}
 a {
     color: #1e90ff; 
     text-decoration: none; 
