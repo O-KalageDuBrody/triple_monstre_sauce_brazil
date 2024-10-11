@@ -5,6 +5,35 @@ body {
     padding: 20px;
 }
 
+a:hover {
+    width: 30px;
+}
+
+a {
+    transition: 2s;
+    width: 8px;
+    height: 16px;
+    color: #1e90ff; 
+    text-decoration: none; 
+}
+
+.container > h1 {
+    width: 70%;
+    margin: 0 auto 0 auto; 
+}
+
+.container > h1, .container > nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.container > nav > ul > li:hover {
+    font-size: 30px;
+    transition: 0.2s;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

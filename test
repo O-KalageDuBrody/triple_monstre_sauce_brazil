@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.back {
+    background: linear-gradient(120grad, #643986, #98aed5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.registration-form {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 15%;
+    background: transparent;
+}
+
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #444;
+}
+
+button[type="submit"] {
+    background-color: #1e90ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #00aaff;
+}
+
+button[type="submit"]:active {
+    background-color: #0099ff;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #00ff00;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
