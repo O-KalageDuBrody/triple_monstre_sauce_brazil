@@ -5,18 +5,39 @@ body {
     background-color: #121212; 
     color: #ffffff; 
 }
-li{
-    transition: 0.5s;
+a:hover {
+width: 30px;
 }
+
 a {
+    transition: 2s;
+    width: 8px;
+    height: 16px;
     color: #1e90ff; 
     text-decoration: none; 
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto; 
+    width: 60%;
+    margin: 0 auto 0 auto; 
     padding: 0 20px; 
+}
+
+.container > h1 {
+    width: 70%;
+    margin: 0 auto 0 auto; 
+}
+
+.container > h1, .container > nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.container > nav > ul > li:hover {
+    font-size: 30px;
+    transition: 0.2s;
 }
 
 .pp_logo {
@@ -31,9 +52,6 @@ a {
 header {
     background-color: #1c1c1c; 
     padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
 }
 
 .logo {
@@ -44,11 +62,6 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
-}
-
-nav ul li {
-    display: inline; 
-    margin: 0 15px;
 }
 
 .cta-buttons .btn {
