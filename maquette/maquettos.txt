@@ -1,0 +1,22 @@
+main page:
+    header :
+        nom du site, login/signup
+        a propos, coachs, tarifs, blog, témoignages, contact, cours(après le login)
+
+    body:
+        faire les catégories du header dans l'ordre avec quand on clique sur les liens header on est redirect vers la catégorie du body
+        mettre photo des coachs(Idriss, Maxime, Waroc)
+        témoignage : mettre la vidéo de faker
+        après signup remplacer le signup et login par "Bonjour 'identifiant'" et mettre bouton pour acceder aux cours
+
+
+signup/login page:
+    utiliser get pour la requette de signup/login
+    identifiant + mot de passe
+    
+
+course page:
+    faire comme sur skillcapped et mettre des images qui redirect vers les cours correspondant
+    -comment jouer à la midlane
+    -une tierlast des champions mid
+    -La technique de last hitting
